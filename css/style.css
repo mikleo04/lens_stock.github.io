@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Caveat:wght@700&family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+body {
+    font-family: cursive;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f2;
+}
+/* navbar */
+header {
+    background-color: #e4e4e2;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index:1;
+    width: 100%;
+    font-family: 'Caveat', cursive, Helvetica, sans-serif;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+}
+nav {
+    float: left;   
+    text-align: center;
+    margin-left: 10px;
+}
+nav a{
+    padding: 16px 20px 13.5px 20px;
+    color: #13c0e5;
+}
+nav li {
+    display: inline;
+}
+nav a:hover {
+    transition: all 0.8s;
+    text-shadow: 0 0 10px #1ce8ff, 0 0 20px #1ce8ff, 0 0 60px #1ce8ff;
+}
+.place {
+    color: #e4e4e2;
+    background-color: #13c0e5;
+}
+.hafid-logo {
+    float: left;
+}
+
+.signin {
+    background-color: #13c0e5;
+    height: 30px;
+    width: 70px;
+    margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.signin a{
+    color: #f4f4f2;
+}
+.signup {
+    border: 2px solid  #13c0e5;
+    height: 30px;
+    width: 70px;
+    margin-right: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.signup a{
+    color:  #13c0e5;
+}
+.hafid-login{
+    float: right;
+    opacity: 0.7;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.hafid-login:hover {
+    opacity: 1;
+    transition: all 0.5s;
+}
+.hafid-login a{
+    display: block;
+    
+}
+header img{
+    display: inline;
+    margin: 8px 0 0 30px;
+    width: 150px;
+    float: left;
+}
+
+/*Main*/
+h2 {
+    color: #333;
+    font-family: 'Lobster', cursive;
+}
+h5 {
+    color: #999;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+    color: #999;
+    font-family: cursive, Helvetica, sans-serif;
+}
+.hafid-heading {
+    padding-top: 40px;
+}
+.hafid-jumbotron {
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: row;
+}
+marquee {
+    background-color: #13c0e5;
+    color:#f4f4f2 ;
+    margin: 10px 0;
+    height: 30px;
+    padding: 5px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.picture{
+    max-width: 250px;
+}
+.hafid-tulisan {
+    margin-top: 135px;
+    width: 40%;
+    margin-right: 80px;
+    margin-bottom: 45px;
+}
+.hafid-bud {
+     width: 50%;
+     margin-top: 35px;
+     margin-bottom: 45px;
+}
+.hafid-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 25px 25px;
+    width: 30%;
+    text-align: center;
+    cursor: pointer;
+
+}
+.hafid-card:hover {
+    box-shadow: 15px 15px 20px 1px rgba(0, 0, 0, 0.1), -15px -15px 20px 1px rgba(0, 0, 0, 0.1);
+}
+.raiting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.raiting img {
+    max-width: 30px;
+    margin: 5px 1.5px 30px 1.5px;
+}
+.view {
+    margin-left: 10px;
+    padding: 6px 22px;
+    border-radius: 5px;
+    border: 2px solid #13c0e5;
+    color: #13c0e5;
+    font-family: 'Caveat', cursive, Helvetica, sans-serif;
+}
+.view:hover {
+    color: #f4f4f2;
+    background: #13c0e5;
+    box-shadow: 0 0 10px #13c0e5, 0 0 40px #13c0e5, 0 0 80px #13c0e5;
+    transition-delay: 0.1s;
+}
+.download {
+    margin-left: 20px;
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px solid #037e8c;
+    color: #037e8c;
+    font-family: 'Caveat', cursive, Helvetica, sans-serif;
+}
+.download:hover {
+    color: #f4f4f2;
+    background: #037e8c;
+    box-shadow: 0 0 10px #037e8c, 0 0 40px #037e8c, 0 0 80px #037e8c;
+    transition-delay: 0.1s;
+}
+.hafid-aside {
+    padding: 20px;
+    width: 50%;
+}
+.form {
+    text-align: left;
+    width: 50%;
+    margin-left: 100px;    
+}
+.hafid-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.stoke {
+    text-align: center;
+}
+.stoke a {
+    color: #999;
+    font-family: cursive, Helvetica, sans-serif;
+}
+.stoke :hover {
+    color: #13c0e5;
+}
+hr {
+    height: 5px;
+    border-radius: 10px;
+    background-color: #13c0e5;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 0 -4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.hafid-input {
+    border: none;
+    background-color: #f4f4f2;
+    border-bottom: 2px solid #13c0e5;
+    outline: none;
+    padding-bottom:5px;
+    width: 250px;
+    color: #999;
+    font-family: cursive;
+}
+.order {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 75%;
+}
+.order th, .order td {
+    text-align: left;
+    padding: 10px 0;
+    font-weight: normal;
+}
+.hafid-input-container {
+    margin-bottom: 15px;
+}
+.jumlah {
+    width: 50px;
+}
+.hafid-radio, .hafid-pilih, .hafid-pesan {
+    border: 2px solid #13c0e5;
+    background-color:#f4f4f2 ;
+    border-radius: 10px;
+    color: #999;
+    outline: none;
+    font-family: cursive;
+}
+.hafid-button {
+    margin-left: 175px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #13c0e5;
+    border-radius: 10px;
+    color:#f4f4f2 ;
+    cursor: pointer;
+    box-shadow: 0 7px #037e8c;
+    font-family: 'Caveat', cursive, Helvetica, sans-serif;
+}
+.hafid-button:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+.hafid-lesson {
+    display: flex;
+    flex-direction: row;
+}
+.author img {
+    margin: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    padding: 10px;
+    max-width: 150px;
+}
+.author table {
+    margin-left: 50px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 75%;
+}
+.author th, .author td {
+    text-align: left;
+    padding: 10px 0;
+}
+
+/* footer */
+footer {
+    background-color:#037e8c ;
+    padding-bottom: 20px;
+    height: 370px;
+    font-family: 'Caveat', cursive, Helvetica, sans-serif;
+}
+footer a, li {
+    margin-bottom: 10px;
+    color: #f4f4f2;
+}
+footer h4 {
+    margin-left: 38px;
+    color: #f4f4f2;
+    font-size:1.3em;
+}
+.hafid-footer-main {
+    padding: 40px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+}
+.hafid-footer-logo{
+    max-width: 250px;
+    margin-top:10px ;
+}
+.hafid-footer-left {
+    width: 40%;
+    margin:0 20px;
+    color: #f4f4f2 ;
+}
+.hafid-sosial-media img {
+    max-width: 35px;
+    float: left;
+    display: inline;
+    margin-right: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    padding: 4px; 
+    opacity: 0.8;
+    background-color: #f4f4f2;
+}
+.hafid-footer-mid {
+    width: 30%;
+}
+.hafid-footer-right {
+    width: 30%;
+}
+.hafid-footer-bottom {
+    text-align: center;
+    color: #f4f4f2;
+}
+
+.hafid-sosial-media img:hover {
+    opacity: 1;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.3);
+}

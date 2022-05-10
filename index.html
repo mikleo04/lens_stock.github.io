@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lens Stock</title>
+	<link rel="stylesheet" type="text/css" href="./css/login-style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body onload="initClock()">
+	<img class="wave" src="./aset/wave.png">
+	<div class="container">
+		<div class="img">
+			<img src="./aset/undraw_virtual_reality_y5ig.svg">
+			<div class="clock">
+				<div class="datetime">
+					<div class="date">
+					  <span id="dayname">Day</span>,
+					  <span id="month">Month</span>
+					  <span id="daynum">00</span>,
+					  <span id="year">Year</span>
+					</div>
+					<div class="time">
+					  <span id="hour">00</span>:
+					  <span id="minutes">00</span>:
+					  <span id="seconds">00</span>
+					  <span id="period">AM</span>
+					</div>
+				  </div>  
+			</div>
+		</div>
+		<div class="login-content">
+			<form action="index.html">
+				<img src="./aset/logo.png">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>Username</h5>
+           		   		<input type="text" class="input">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>Password</h5>
+           		    	<input type="password" class="input">
+            	   </div>
+            	</div>
+            	<a href="#">Forgot Password?</a>
+            	<a href="#" class="signin" onclick="signin()">
+					<span></span>
+					<span></span>
+					<span></span>
+					<span></span>
+					Sign in
+				</a>
+				<p>~ Username & Password tidak berpengaruh ~</p>
+			</form>
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/login.js"></script>
+</body>
+</html>
